@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>个人VPN节点搭建与使用指南</title>
+    <link href="/2026/04/22/personal-vpn-setup/"/>
+    <url>/2026/04/22/personal-vpn-setup/</url>
+    
+    <content type="html"><![CDATA[<h1 id="个人VPN节点搭建与使用指南"><a href="#个人VPN节点搭建与使用指南" class="headerlink" title="个人VPN节点搭建与使用指南"></a>个人VPN节点搭建与使用指南</h1><h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>本文档记录了我个人搭建的私人VPN节点信息，用于安全访问互联网和保护个人隐私。</p><h2 id="访问地址"><a href="#访问地址" class="headerlink" title="访问地址"></a>访问地址</h2><p><strong>VPN登录页面：</strong> <a href="https://vpn.bushangban.online/login">https://vpn.bushangban.online/login</a></p><h2 id="技术架构"><a href="#技术架构" class="headerlink" title="技术架构"></a>技术架构</h2><ul><li><strong>服务端</strong>：基于 EdgeTunnel 技术</li><li><strong>部署方式</strong>：云服务器</li><li><strong>加密方式</strong>：TLS 加密</li><li><strong>协议支持</strong>：支持多种协议</li></ul><h2 id="节点信息"><a href="#节点信息" class="headerlink" title="节点信息"></a>节点信息</h2><h3 id="主要节点"><a href="#主要节点" class="headerlink" title="主要节点"></a>主要节点</h3><table><thead><tr><th>节点名称</th><th>服务器地址</th><th>端口</th><th>协议</th><th>状态</th></tr></thead><tbody><tr><td>主节点</td><td>vpn.bushangban.online</td><td>443</td><td>HTTPS</td><td>运行中</td></tr></tbody></table><h3 id="备用节点"><a href="#备用节点" class="headerlink" title="备用节点"></a>备用节点</h3><table><thead><tr><th>节点名称</th><th>服务器地址</th><th>端口</th><th>协议</th><th>状态</th></tr></thead><tbody><tr><td>备用节点1</td><td>备用地址</td><td>443</td><td>HTTPS</td><td>运行中</td></tr></tbody></table><h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><h3 id="Windows-客户端"><a href="#Windows-客户端" class="headerlink" title="Windows 客户端"></a>Windows 客户端</h3><ol><li>下载并安装适合的VPN客户端</li><li>打开客户端，添加新的连接</li><li>输入服务器地址：<code>vpn.bushangban.online</code></li><li>选择协议：HTTPS</li><li>输入端口：443</li><li>输入您的账号密码</li><li>连接并验证连接状态</li></ol><h3 id="macOS-客户端"><a href="#macOS-客户端" class="headerlink" title="macOS 客户端"></a>macOS 客户端</h3><ol><li>下载并安装适合的VPN客户端</li><li>打开客户端，添加新的配置</li><li>输入服务器地址：<code>vpn.bushangban.online</code></li><li>选择协议：HTTPS</li><li>输入端口：443</li><li>输入您的账号密码</li><li>连接并验证连接状态</li></ol><h3 id="移动设备"><a href="#移动设备" class="headerlink" title="移动设备"></a>移动设备</h3><ol><li>在应用商店下载VPN客户端</li><li>打开客户端，添加新的服务器配置</li><li>输入服务器地址：<code>vpn.bushangban.online</code></li><li>选择协议：HTTPS</li><li>输入端口：443</li><li>输入您的账号密码</li><li>连接并验证连接状态</li></ol><h2 id="安全建议"><a href="#安全建议" class="headerlink" title="安全建议"></a>安全建议</h2><ol><li><strong>定期更改密码</strong>：建议每30天更改一次VPN账号密码</li><li><strong>使用强密码</strong>：密码应包含字母、数字和特殊字符</li><li><strong>避免共享账号</strong>：不要将VPN账号分享给他人</li><li><strong>定期检查连接</strong>：确保VPN连接正常工作</li><li><strong>更新客户端</strong>：及时更新VPN客户端软件</li></ol><h2 id="故障排查"><a href="#故障排查" class="headerlink" title="故障排查"></a>故障排查</h2><h3 id="连接失败"><a href="#连接失败" class="headerlink" title="连接失败"></a>连接失败</h3><ol><li>检查网络连接是否正常</li><li>确认服务器地址和端口是否正确</li><li>验证账号密码是否正确</li><li>检查防火墙设置是否阻止了VPN连接</li><li>尝试使用备用节点</li></ol><h3 id="速度缓慢"><a href="#速度缓慢" class="headerlink" title="速度缓慢"></a>速度缓慢</h3><ol><li>检查本地网络速度</li><li>尝试切换到其他协议</li><li>选择距离较近的节点</li><li>检查服务器负载情况</li></ol><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>本VPN服务仅用于个人学习和研究目的</li><li>请勿使用本服务进行任何违法活动</li><li>请遵守当地法律法规</li><li>定期备份重要数据</li></ul><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul><li><strong>2026-04-22</strong>：初始搭建完成，部署主节点</li><li><strong>2026-04-20</strong>：测试完成，服务正常运行</li></ul><hr><blockquote><p>本博客内容仅用于个人记录，请勿将信息分享给未授权人员。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>VPN</tag>
+      
+      <tag>网络安全</tag>
+      
+      <tag>个人服务器</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>helloWorld</title>
     <link href="/2026/04/21/helloWorld/"/>
     <url>/2026/04/21/helloWorld/</url>

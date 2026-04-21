@@ -19,22 +19,24 @@
   <meta name="author" content="豆豉">
   <meta name="keywords" content="生活, 技术">
   
-    <meta name="description" content="来都来了，留下点什么吧～">
+    <meta name="description" content="记录个人搭建的私人VPN节点信息及使用方法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="helloWorld">
-<meta property="og:url" content="http://bushangban.online/2026/04/21/helloWorld/index.html">
+<meta property="og:title" content="个人VPN节点搭建与使用指南">
+<meta property="og:url" content="http://bushangban.online/2026/04/22/personal-vpn-setup/index.html">
 <meta property="og:site_name" content="豆豆支的博客">
-<meta property="og:description" content="来都来了，留下点什么吧～">
+<meta property="og:description" content="记录个人搭建的私人VPN节点信息及使用方法">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-04-20T17:12:35.000Z">
-<meta property="article:modified_time" content="2026-04-20T17:12:35.841Z">
+<meta property="article:published_time" content="2026-04-22T02:00:00.000Z">
+<meta property="article:modified_time" content="2026-04-21T16:15:41.263Z">
 <meta property="article:author" content="豆豉">
-<meta property="article:tag" content="生活, 技术">
+<meta property="article:tag" content="VPN">
+<meta property="article:tag" content="个人服务器">
+<meta property="article:tag" content="网络安全">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>helloWorld - 豆豆支的博客</title>
+  <title>个人VPN节点搭建与使用指南 - 豆豆支的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -303,7 +305,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="helloWorld"></span>
+            <span id="subtitle" data-typed-text="个人VPN节点搭建与使用指南"></span>
           
         </div>
 
@@ -314,8 +316,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2026-04-21 01:12" pubdate>
-          2026年4月21日 凌晨
+        <time datetime="2026-04-22 10:00" pubdate>
+          2026年4月22日 上午
         </time>
       </span>
     
@@ -326,7 +328,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          893 字
         
       </span>
     
@@ -337,7 +339,7 @@
         
         
         
-          1 分钟
+          8 分钟
         
       </span>
     
@@ -376,12 +378,117 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">helloWorld</h1>
+            <h1 id="seo-header">个人VPN节点搭建与使用指南</h1>
             
             
               <div class="markdown-body">
                 
-                
+                <h1 id="个人VPN节点搭建与使用指南"><a href="#个人VPN节点搭建与使用指南" class="headerlink" title="个人VPN节点搭建与使用指南"></a>个人VPN节点搭建与使用指南</h1><h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>本文档记录了我个人搭建的私人VPN节点信息，用于安全访问互联网和保护个人隐私。</p>
+<h2 id="访问地址"><a href="#访问地址" class="headerlink" title="访问地址"></a>访问地址</h2><p><strong>VPN登录页面：</strong> <a target="_blank" rel="noopener" href="https://vpn.bushangban.online/login">https://vpn.bushangban.online/login</a></p>
+<h2 id="技术架构"><a href="#技术架构" class="headerlink" title="技术架构"></a>技术架构</h2><ul>
+<li><strong>服务端</strong>：基于 EdgeTunnel 技术</li>
+<li><strong>部署方式</strong>：云服务器</li>
+<li><strong>加密方式</strong>：TLS 加密</li>
+<li><strong>协议支持</strong>：支持多种协议</li>
+</ul>
+<h2 id="节点信息"><a href="#节点信息" class="headerlink" title="节点信息"></a>节点信息</h2><h3 id="主要节点"><a href="#主要节点" class="headerlink" title="主要节点"></a>主要节点</h3><table>
+<thead>
+<tr>
+<th>节点名称</th>
+<th>服务器地址</th>
+<th>端口</th>
+<th>协议</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>主节点</td>
+<td>vpn.bushangban.online</td>
+<td>443</td>
+<td>HTTPS</td>
+<td>运行中</td>
+</tr>
+</tbody></table>
+<h3 id="备用节点"><a href="#备用节点" class="headerlink" title="备用节点"></a>备用节点</h3><table>
+<thead>
+<tr>
+<th>节点名称</th>
+<th>服务器地址</th>
+<th>端口</th>
+<th>协议</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>备用节点1</td>
+<td>备用地址</td>
+<td>443</td>
+<td>HTTPS</td>
+<td>运行中</td>
+</tr>
+</tbody></table>
+<h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><h3 id="Windows-客户端"><a href="#Windows-客户端" class="headerlink" title="Windows 客户端"></a>Windows 客户端</h3><ol>
+<li>下载并安装适合的VPN客户端</li>
+<li>打开客户端，添加新的连接</li>
+<li>输入服务器地址：<code>vpn.bushangban.online</code></li>
+<li>选择协议：HTTPS</li>
+<li>输入端口：443</li>
+<li>输入您的账号密码</li>
+<li>连接并验证连接状态</li>
+</ol>
+<h3 id="macOS-客户端"><a href="#macOS-客户端" class="headerlink" title="macOS 客户端"></a>macOS 客户端</h3><ol>
+<li>下载并安装适合的VPN客户端</li>
+<li>打开客户端，添加新的配置</li>
+<li>输入服务器地址：<code>vpn.bushangban.online</code></li>
+<li>选择协议：HTTPS</li>
+<li>输入端口：443</li>
+<li>输入您的账号密码</li>
+<li>连接并验证连接状态</li>
+</ol>
+<h3 id="移动设备"><a href="#移动设备" class="headerlink" title="移动设备"></a>移动设备</h3><ol>
+<li>在应用商店下载VPN客户端</li>
+<li>打开客户端，添加新的服务器配置</li>
+<li>输入服务器地址：<code>vpn.bushangban.online</code></li>
+<li>选择协议：HTTPS</li>
+<li>输入端口：443</li>
+<li>输入您的账号密码</li>
+<li>连接并验证连接状态</li>
+</ol>
+<h2 id="安全建议"><a href="#安全建议" class="headerlink" title="安全建议"></a>安全建议</h2><ol>
+<li><strong>定期更改密码</strong>：建议每30天更改一次VPN账号密码</li>
+<li><strong>使用强密码</strong>：密码应包含字母、数字和特殊字符</li>
+<li><strong>避免共享账号</strong>：不要将VPN账号分享给他人</li>
+<li><strong>定期检查连接</strong>：确保VPN连接正常工作</li>
+<li><strong>更新客户端</strong>：及时更新VPN客户端软件</li>
+</ol>
+<h2 id="故障排查"><a href="#故障排查" class="headerlink" title="故障排查"></a>故障排查</h2><h3 id="连接失败"><a href="#连接失败" class="headerlink" title="连接失败"></a>连接失败</h3><ol>
+<li>检查网络连接是否正常</li>
+<li>确认服务器地址和端口是否正确</li>
+<li>验证账号密码是否正确</li>
+<li>检查防火墙设置是否阻止了VPN连接</li>
+<li>尝试使用备用节点</li>
+</ol>
+<h3 id="速度缓慢"><a href="#速度缓慢" class="headerlink" title="速度缓慢"></a>速度缓慢</h3><ol>
+<li>检查本地网络速度</li>
+<li>尝试切换到其他协议</li>
+<li>选择距离较近的节点</li>
+<li>检查服务器负载情况</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
+<li>本VPN服务仅用于个人学习和研究目的</li>
+<li>请勿使用本服务进行任何违法活动</li>
+<li>请遵守当地法律法规</li>
+<li>定期备份重要数据</li>
+</ul>
+<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul>
+<li><strong>2026-04-22</strong>：初始搭建完成，部署主节点</li>
+<li><strong>2026-04-20</strong>：测试完成，服务正常运行</li>
+</ul>
+<hr>
+<blockquote>
+<p>本博客内容仅用于个人记录，请勿将信息分享给未授权人员。</p>
+</blockquote>
+
                 
               </div>
             
@@ -389,6 +496,38 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" class="category-chain-item">技术分享</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/VPN/" class="print-no-link">#VPN</a>
+      
+        <a href="/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/" class="print-no-link">#网络安全</a>
+      
+        <a href="/tags/%E4%B8%AA%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="print-no-link">#个人服务器</a>
+      
+    </div>
   
 </div>
 
@@ -398,8 +537,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>helloWorld</div>
-      <div>http://bushangban.online/2026/04/21/helloWorld/</div>
+      <div>个人VPN节点搭建与使用指南</div>
+      <div>http://bushangban.online/2026/04/22/personal-vpn-setup/</div>
     </div>
     <div class="license-meta">
       
@@ -411,7 +550,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2026年4月21日</div>
+          <div>2026年4月22日</div>
         </div>
       
       
@@ -443,18 +582,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2026/04/22/personal-vpn-setup/" title="个人VPN节点搭建与使用指南">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">个人VPN节点搭建与使用指南</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2026/04/21/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2026/04/21/helloWorld/" title="helloWorld">
+                        <span class="hidden-mobile">helloWorld</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
