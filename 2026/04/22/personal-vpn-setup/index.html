@@ -27,7 +27,7 @@
 <meta property="og:description" content="记录个人搭建的私人VPN节点信息及使用方法">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-04-22T02:00:00.000Z">
-<meta property="article:modified_time" content="2026-04-21T16:15:41.263Z">
+<meta property="article:modified_time" content="2026-04-22T15:37:28.709Z">
 <meta property="article:author" content="豆豉">
 <meta property="article:tag" content="VPN">
 <meta property="article:tag" content="个人服务器">
@@ -381,116 +381,22 @@
             <h1 id="seo-header">个人VPN节点搭建与使用指南</h1>
             
             
-              <div class="markdown-body">
-                
-                <h1 id="个人VPN节点搭建与使用指南"><a href="#个人VPN节点搭建与使用指南" class="headerlink" title="个人VPN节点搭建与使用指南"></a>个人VPN节点搭建与使用指南</h1><h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>本文档记录了我个人搭建的私人VPN节点信息，用于安全访问互联网和保护个人隐私。</p>
-<h2 id="访问地址"><a href="#访问地址" class="headerlink" title="访问地址"></a>访问地址</h2><p><strong>VPN登录页面：</strong> <a target="_blank" rel="noopener" href="https://vpn.bushangban.online/login">https://vpn.bushangban.online/login</a></p>
-<h2 id="技术架构"><a href="#技术架构" class="headerlink" title="技术架构"></a>技术架构</h2><ul>
-<li><strong>服务端</strong>：基于 EdgeTunnel 技术</li>
-<li><strong>部署方式</strong>：云服务器</li>
-<li><strong>加密方式</strong>：TLS 加密</li>
-<li><strong>协议支持</strong>：支持多种协议</li>
-</ul>
-<h2 id="节点信息"><a href="#节点信息" class="headerlink" title="节点信息"></a>节点信息</h2><h3 id="主要节点"><a href="#主要节点" class="headerlink" title="主要节点"></a>主要节点</h3><table>
-<thead>
-<tr>
-<th>节点名称</th>
-<th>服务器地址</th>
-<th>端口</th>
-<th>协议</th>
-<th>状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>主节点</td>
-<td>vpn.bushangban.online</td>
-<td>443</td>
-<td>HTTPS</td>
-<td>运行中</td>
-</tr>
-</tbody></table>
-<h3 id="备用节点"><a href="#备用节点" class="headerlink" title="备用节点"></a>备用节点</h3><table>
-<thead>
-<tr>
-<th>节点名称</th>
-<th>服务器地址</th>
-<th>端口</th>
-<th>协议</th>
-<th>状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>备用节点1</td>
-<td>备用地址</td>
-<td>443</td>
-<td>HTTPS</td>
-<td>运行中</td>
-</tr>
-</tbody></table>
-<h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><h3 id="Windows-客户端"><a href="#Windows-客户端" class="headerlink" title="Windows 客户端"></a>Windows 客户端</h3><ol>
-<li>下载并安装适合的VPN客户端</li>
-<li>打开客户端，添加新的连接</li>
-<li>输入服务器地址：<code>vpn.bushangban.online</code></li>
-<li>选择协议：HTTPS</li>
-<li>输入端口：443</li>
-<li>输入您的账号密码</li>
-<li>连接并验证连接状态</li>
-</ol>
-<h3 id="macOS-客户端"><a href="#macOS-客户端" class="headerlink" title="macOS 客户端"></a>macOS 客户端</h3><ol>
-<li>下载并安装适合的VPN客户端</li>
-<li>打开客户端，添加新的配置</li>
-<li>输入服务器地址：<code>vpn.bushangban.online</code></li>
-<li>选择协议：HTTPS</li>
-<li>输入端口：443</li>
-<li>输入您的账号密码</li>
-<li>连接并验证连接状态</li>
-</ol>
-<h3 id="移动设备"><a href="#移动设备" class="headerlink" title="移动设备"></a>移动设备</h3><ol>
-<li>在应用商店下载VPN客户端</li>
-<li>打开客户端，添加新的服务器配置</li>
-<li>输入服务器地址：<code>vpn.bushangban.online</code></li>
-<li>选择协议：HTTPS</li>
-<li>输入端口：443</li>
-<li>输入您的账号密码</li>
-<li>连接并验证连接状态</li>
-</ol>
-<h2 id="安全建议"><a href="#安全建议" class="headerlink" title="安全建议"></a>安全建议</h2><ol>
-<li><strong>定期更改密码</strong>：建议每30天更改一次VPN账号密码</li>
-<li><strong>使用强密码</strong>：密码应包含字母、数字和特殊字符</li>
-<li><strong>避免共享账号</strong>：不要将VPN账号分享给他人</li>
-<li><strong>定期检查连接</strong>：确保VPN连接正常工作</li>
-<li><strong>更新客户端</strong>：及时更新VPN客户端软件</li>
-</ol>
-<h2 id="故障排查"><a href="#故障排查" class="headerlink" title="故障排查"></a>故障排查</h2><h3 id="连接失败"><a href="#连接失败" class="headerlink" title="连接失败"></a>连接失败</h3><ol>
-<li>检查网络连接是否正常</li>
-<li>确认服务器地址和端口是否正确</li>
-<li>验证账号密码是否正确</li>
-<li>检查防火墙设置是否阻止了VPN连接</li>
-<li>尝试使用备用节点</li>
-</ol>
-<h3 id="速度缓慢"><a href="#速度缓慢" class="headerlink" title="速度缓慢"></a>速度缓慢</h3><ol>
-<li>检查本地网络速度</li>
-<li>尝试切换到其他协议</li>
-<li>选择距离较近的节点</li>
-<li>检查服务器负载情况</li>
-</ol>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
-<li>本VPN服务仅用于个人学习和研究目的</li>
-<li>请勿使用本服务进行任何违法活动</li>
-<li>请遵守当地法律法规</li>
-<li>定期备份重要数据</li>
-</ul>
-<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><ul>
-<li><strong>2026-04-22</strong>：初始搭建完成，部署主节点</li>
-<li><strong>2026-04-20</strong>：测试完成，服务正常运行</li>
-</ul>
-<hr>
-<blockquote>
-<p>本博客内容仅用于个人记录，请勿将信息分享给未授权人员。</p>
-</blockquote>
+              
+              <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3266a914a396c977012924a0759129621967b1ed3db9518fec194bcdc905cb4a">6031008eaf30dfa9f6cee48a6a69006ec6c27df1acca526217b8c2ea8950b3c2ef4ff47ec66125db9734c2c68eeb44d764020dfa66b43347d73aa893839eaa984d4a43be38158c0bb83b81195f629a32d63ea976b9a5b44918a0b71e693e2bad237d0bff7517770842c069365b9672c62334a438874912f78d7c8389566850ff1a023da0e0f1a12f8017a2880d2920698228b6a7fdaf55a16f44fdbb0538d62d81b3dd36c288ce82f709d5bf7d7fc9172332be7c0d5c05ec16281b022b9caf1b23242e471d4ae3f8458c3650fec1706220974983f61603e01f4038caa5c6e04d0a6551e80b07bdd451af099095444ea80b8c6824591ef45db33d0b965c2893904bd05dba24f10f0cdad344640363ab94fcae26db33bfb1f684409b9ad21c1368a5c554a7c1fddf09dcd535d782fa71fb536cd32e225a4c16da3f58406139ff7463558c8084cfa3c48e5b237492c9d29d168622c472648a53b3cefad4bd8ca142e538f1e0839e93b2f41f5851569664f81a6f9a011b01f5c107a9447a5f0dbe7018ca3c18e4e2b7469a56da1227790b1de2697269f819def4bc59f45ebf06b7ddf33fd1d3c8ecbe2f25f9955432833ff66f82c50f1634724725de6a07198a5f0095bdaaec72922861c7d7c7937d3e9aefb66033d304520e8d73e2447a1ceeeff41476d7bb081586555b3ac9b3c0e0d9f12685d31c77c2c90f3a2ed8eae2b2e128b32f11196897448f6f39dd1ee7405f29c8fac18dea587f4333e8f2e1a44c82cdbdd4f2a316ab595413d97097aae03c4732457e7a9070f06fb5185637fd4707b911b2ceeb79cc1c0d816e6d2c23cf5da5e2070b96f40abd869b801573f34e0fadf9b04bdc61ec03fcb0bbc7c819390beeb5447ad31b49bd1094a2c6c8a3d6c14ef9551bbd331737937fdae89c6f57d62b1e572ad1d7760d51c9b6550493c8bff83fac9b35f45ba979cf743217074a82e54496bacd5dae6cc82aa273879b825ac763eaa74c936459c5a51c12dd33ed4c4eb2723615896974727449479cb8ef37c49a2b4d353a919227fa385ac4b74e8fcc413347c71a3fc2ec86a6f5abf5638478d67daa0d02595f9474b40cab8a7aaeaff18d15296e975defe81b04197c19a9c9d5dfafbcbbc7b509ca5c079899ef213d8626eb5e73d0548b1f62fdade5a4591304511ade3d6b3435208054f88047984d693837671b3c48b9fc262a03603c12007fc3c114dc495174d72d6b40a7ccb72d68717d65ed8027812f7ea58388a495d264e7c6184c889ba22543c0cd99f8ac34308e6c4c829f647de3a0b5d1ae36e807e3c5c4395796417c4f135314d0b78fa8a3181548eac74a118738fd77ad9a996837300b7465371fd2d2208aa71aaa630350f588d3607dfa7b5a67267c9f71a1b0c69fff3a83a21331eea5b95b3abab495dced82af2bc517f2de8de6d69140d0b9c23bd3353c65d74dae1a2f1cea62ba65b50d2f0dba49d94b5d66ce9d5e7f92af4a69a231399f74709ed4c0ebc9eec5f5ebcebf93793611f7242719f1df4b3cbad36b26fa229256add0073ab2efa85ba006d1561fe2a19d638cc68e3a248070c7d5cb35b297e0c47765f2d03a5a9d6e2821756a0175c08171280cc087ec03bb66e4e98f7014f224b16ce7d86f522759cef7fd6abf1161cfa8534010dedd1b0825a305078857b0aa220546ee34085b9c2d5d210aed0f7e1ec86aebf09741f93dc99c08cd9b4ca3f791be0f20b9cb7c5670fc715714781ccd7bc866d126df763cae9c8958c7cef9fa71a7189b54c5f6bda97904550116ddb3cdc2f7edbcbb3db2958bbf30ec3a937fb8635fd79a5421acb3278dfa898d57323e22423a3eaf2d350ef40cef3e0439028e0cd013a72c7bfa396dd06a5ea7f728cffd837248f1c4975c0c792d784e845c9ed9c486deeb49bce5fa8880aecba6b7e79c6166570655211edaf7d920b03c6dbbeb00fb66b94436e707bb678309147e2fe215decdd37705ffd848bfeb5697d257f481e9f458b3d28801a7218b015bd7aa679ff2929a2804a3b83e1c2711ff895cadc0d092e77db530982a5ecd2b18f4a65eb1497cd88af9212dd9834af7e6e5d3cc0872b6f4b5b80d6b4cf98fcb3beb63c7bd150c4b7a7637f95d60ee0445250be57e6e9ac4d661d9e545ec45808f814a67c4b3e0a7ab56464e430b05db88f0e7f5abba8a65ccad5fe3e4155a4b71fd90544ffcddfc20909b7ea53b33c5261914b66a83717a27bf4c32cf9b383eb9831eb956bce52e23a7c2c5ad5aecf4fdfbfc6e94653e87f9a75c5ef0e9c50cc2117d9478df4a680bfa83b0d60896bca94560bd41c29e07e4c361be22b6229ccc2fddf83c5dec92042b7893de9fa299cc1e2655a61b344947f262ae1918608d456688c29d2b8bcbf1ff391bd3c14ae081de28f637fe0eec252daffd3924c3a8ed0503d286cb4c9f1f488d84d03afb001f991eaaea355162aeb9f16134c9523c822b11736ab67b00b7a15294469be9378799caf7c0e0dd34d428f4fc8e45290624c6610488a48c6eeece30bc928c00fd1bf43ebca03e9ae6e84249d164317ca693edeba5d720c3e3fe3df670143041215264d2f09fd2ed2b2f9ee71d10c7f00391b78960172b63c20505590b448ffadb5b6b0c7c75a3c6e316b5e2df2d54f9946a67f222860383d52794f543cd1d3ea08f198e9b2de002a07070977017894b7ecb08e75d8c4d56ae74dd18b73d8d8c793c2b9ec41a51a84c92a05d4c3ed155833d41c06ac4cb6440a34e268636a8dc74c1dd225004aeecd1217381b654af00354fb206bf52b86fdadd3a7b84c8267bb4600156044ac4527b37e5b0a87c979f749cbb6c5addb7013f3d1dc95700e3c5f077a8730afcbe7323345edd707eea6a8e86179b69973440053592258b2e95a9675463456a676d9f220f2d3a5532bac04ccaa786949ebde132c3693d7587a9a65826cf7a54c56bcdfbcc23e83f6eaaad9338e75c5d1724503d4f871ce6b9a93677b16506f7464d8f6578e1c31dc7e2c75f2339c8db4597dbf21f6da670267457418905d4be8600f56cb6cc62e2f05e8f796b9ba3ab86cd28cfc849589f1391574044ca60385d40f80add2276feeebd81b1d27d93dba743c4f56599e1d68d7e6ea4e6aa5f667bb9d8b911892e18142ebac37b50a391f19a95f3a8f9381d6f8d7ab76c6aab3ca43bad33b4d8c82920c121ac65e47513cca436f141f7b859a390bc0823937038e28469b60229f6ed59f5029ef9214d5cedbc38a987628a12ab562c9f32a8a163f4c01d98d3ae0076b04e88b4a020c9ff63c4a51048312b0b03e4961fafa672c7d516821ef76c24cdebdcbdd3ad4627dfd2cd18eeb5eaf0f1156cc72788d11132eed3a11149ba2c0b8448d3fac3ca22f19962152149f6b6e4dfbc589a22b25b734220935a872cebe0b7452de17299500b25a72ec1482e5bf6f2d509ae36d9c6d3969ea9237c585e834a9bc51c5f94b9432022683f52b45306078fe49c67ccb60a31c56ab857c9186a579dca8d15d8ff6b96407ee513e07eb09993facad0c4ff5969134d9c0510eb5894a52a566ef135452e90d5fba2967394e1ab7a9cc77a8b8d64271f4f64c7c86e6e27ecec84de8da138d0ad45fa4210296d5330bc78dad2d75cf8b9f237b32abd7118d778213e54d4178fed17da2629c0b8756590c395fd90d731bd1387da7337b15332063fb857830bc6b9a8e032f94fcad439e03b38885bdbbb354c8f8fb8fb005612ca67ee45907bdc4e3fd552903bb33cd98c49defb860e518bad0d3e7eeeb9e606fd0d165beef869de009f36a60fcb4ff2c1e6380951f9ef06ccd9dc6bda597272bc5b312c1025a2f8b9ef1e228e28e462b49db805c4eec48b097bbf3b53d5f33d3aa1091e95faf17cc6e12d47886992efcf1a157d09b30282b9ffa8b89f01fd195501e88c231f0ccef400aae759ef8d6c20f8b7f2cc5149979ac034b65e16b2e75202a9cddaed9daa869ed0ad4c817a1099951e15567852360003e24e5edce2616ea73124d98b5606587289c5337c3c0e667d20d0706ef140b44798dd89c876e3e3ea9a8335b07b4a5e58ee2abfdf98c5a687e3827788abf836aa18043371fb26f1c5f57f31f8153420c6508da9f4ce902891c6586e6b7fd7578a5b410627888e9d7b0e27c848eec3f8dc8e2b769e380601042c9c5f993cc37b3b0a14072b6aed651ab634579e960a3a48015e870a8c67271415053bb5a15faf2ae0836135ff909a58af44b4aa8a599183f664f1a698b16b913fa603709693c1f382a0e48cd461d9ff4418cd2fed2f07c3b1e6581f686211a39ba71121cc934423249f720ebd740cc14c138f16a2f84c20e19c14686af4a8d22bff71d262f1458743d78f99a9f324226ee7e46c85fed2d77465c25076046043dffd7cb118640f3044740d4d8dd00c9a0607afef1d7a6891235258be8d8ec06d3a2fc81dd50edf84e81b331e18eb837362d025a7c52323a98f61779bbd758bfb7ae806897b32162748e99f85190006e3ae2d2c0f2a6c06b4ddc5cea1638e862d852a34e1ac867bb53c475a0cb780f491f747b08bf777dec77fd62b3d61d361dfa1ec4fa6ade5890d8d1eff44baae94f383abee92d1810ad4019eff51076cda4a649f4c4e1512d820e72cd7670fa73da70ee7bf9c482e0bb283be095430a358b4aaed5286fd56bb5c2eef6e2d515ab331bc2cf2abee5c4e6578ced77f1296136b4b631fff503074be0891549569a141a044fc6b0f198fdb328adcaba1f502b2a94522744dc2bcaadeb52430c4497818dd360da4ad928fff7f8e1b25d6b0abbe03effd735dfeadbddbe3868f4dd827f4a4e8cdb222fc7c6f0f11684f647bcb386589744808673fd447295a03a97569b89e60238a907111b750ddb6d3cf8d0ef6f9e632cc8c44b5d954d4a8b6c9165324ba9e34f6c452bb8b0d090335258b240b3ca5e61a3bbe0a825337e2f6ecc486cbb6982423aaacf22b5e094bbe124f68ac3309824d9e6f2d6f44b1383739b206f9eff7082e8c2bba786ee9d702458682518bf12b97aece31156b0b735906baa7b460979c5424ae399b9ac927fa63f8606d03ec59a20ec76ffccf1842df7a9cf8b7da9b8ef18ddd1043fa8b0e57e104783bd18ddecc98dd0a37f60364a55839670240f447770db1186d5725095436423598dfa4195dde998e464c2d9f402a74de43280cf4d26e270f1442359ec267202febaeccf28db543e9cde689842da996a45334b4c4ff31bb374d3f3d9b4e4e1a306f998b81e31d619b32b92d108fb50f685b82a44024e49582436ab5bfdb74371522ea4435862b9ee66d415a636aaad244de7c830009f9d0f86d2b7e6e1bd0da9fd4705691106166ed40784c0cd40f92928e6b598af9d3e2b0210799b759d44f36f32ddd7314db80ddb99164a56d643dc8d9226afd31f60a74dc2cb7824aff524644d81e5693790058da2e94395dd11cbf98c061bad8fdb4b77ca9672206208e2edc58216abf5f247797163aea6a4a0b51c246d0b6ee92a8868e76ab084dc1af080421b89e89c989e3a72a79bfbf879d7927da3e30de5414eb54534a0f45f5976229d83aaa4499c04d8bf3227871d6d21f2413fb55e5df4aeaa42ded1ccb4e7721c5b55e95d9c85b260e7b721f0c64597719716cce279b3126718ae1c1553252b9056e67de4130ade68692dbc66c5645691f96521bfcb8d9b95c98d8f98ceca0a7867375054765c5723834315558d419a9e2c682fb0221b09976d209dd10ada31f0fcf9f49de967d8291cc834cfbf7d4d41fc8fe1125793f911115286da2e48fd6763926bf863b13e19b0959e75e969e36cf112319279c5d256c06955a6a157322e1a66d19ed6a91a7dd2978d6536bd5e072e6b7bfe2844a5ef5e9d762c4582ac6e2b53266dff1dd150b2533e09d08dab80f97f46bda1daf7afc14b44ec0aac721cd1a5ccd6d0a11d7991fc2ddccb1fff76b9e4854d9894106235e4b29118efbe8bd48c679c8bfd820231ca2b4740a2da7472dfcc97eaf943e093fb61094fbe428e2b8fba94ea0fd2be89606fa96418a8cb2fcc0354e8f2f3837cdb6904d6bf7826e3069ac39f0153c28be6f2a82b788358143068c5dc5fb58aadad5744d00e1fd1e0d204571f65f15233f71dc4643a751e82537ebf5cb39836fa590ed80abe0e1752ed3d9729bdc3782cc50ae3638d4e1be733bd522bdc0ef00c515c9d12bf47a5630902d298a21eb2543ea9241669a826a1ca3d0893ac92957725884d5a8e70565f632645e2b6bf8fd23ec9be43781c78daefe64b8d5860e90b03da9ff47bf2b9a6c4ffe7cc3b7d73bdd41bb8c352a6179ab2ae28acd5b27d61e9d62fc0de1f70f3c6a9f7d1e4a835b899cb0a09c98bd42e732f31f83bbeb08eddf333cc0558456abb3153f485117df52f2558c3cc28983ed2b88df64c38078e8c20815a0b3d4b820deeb928e9fefec576961c2aad27b64599a72cf5480e9c28fcdde97252840209eb8965f496fec1f1d03a54d512148e085a3738c73cd811def9642187243543f8fb918ec6b467a5828d1ec7611c2a1a0e9e56f8e14a4847fea11ec0046f9332144ce5e938bf3e9bc22b6d405ca7e39b9daaba458ecaf6eaa8adb0bef4740c4f32e37a91d330f9df99512c59fe7380b4063ea706fea3739c8e565a58a195180bb009d0292f6fbb83700732dcc1e3060ca25e0adb2e9e911defd20ec0c975c2b0a1309d42e942dbd8a1bd89a548afe61a74bdeaa314faf10ffbb5342f24265f29aa9490762855e43d514508f09253d19c60d68c6e7c2006de3cf668fd2f605221c177962ebea171ae1dcfbfe9377124d3216dac524e087725434549aa0c7853ebc7603c04abacf58d261dc2f880a01637d62d9bcfc7aa4bec0b07443f03f186b0b8654cf9c5fbca0b2f09bed618834a70fff674eec6562738b281538bb377884df7848cf024a56e28b3646b4e9c89c45279eedb12b8ccb6123d113d1ffc8ef35372f3faa634efdd4e9eedd1845656eb08a7dfed2c4477bf061f395de8b802f4ded42f129e7796c53fe19c1c7d6c3e2ffe02164bcf6429656a0986f2a016d8e96532398364e3d04703608e6afd4a15d494883d15c4000976e6ba8e99d7334c57ab2cb79cab2608c935c016a7a66da3f0f3a778c721c319bc41e4c7cbb3fcfdff3f1de70f5548757d7e9f74ae38d42c3e16ee044de478d0f3729595c95befba3457d17fabbd356498fb9750aa92559dd3b5caafd5932f6659b5244bcf716a1a1fc2a4613fa6e9f647069108bebf5537c2e1423fa59e436eed75f5a9b6321c1c6ed88bde655f165bc572a5ed07d8a9c1c14b0b958be56ad116b0efa8c07</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">土豆土豆，我是地瓜</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+              
 
-                
-              </div>
+              
             
             <hr/>
             <div>
@@ -742,6 +648,23 @@
   
 
 
+
+
+  
+  <script defer>
+    if (document.getElementById('hbePass') || document.querySelector('hbe-prefix')) {
+      Fluid.utils.waitElementLoaded('hbe-prefix', function() {
+        var hbePrefix = document.querySelector('hbe-prefix');
+        hbePrefix.parentElement.classList.add('markdown-body');
+        Fluid.utils.retry(function() {
+          if (Fluid.boot && Fluid.boot.refresh) {
+            Fluid.boot.refresh();
+            return true;
+          }
+        }, 100, 10);
+      })
+    }
+  </script>
 
 
   
